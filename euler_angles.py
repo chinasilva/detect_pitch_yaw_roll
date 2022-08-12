@@ -340,7 +340,7 @@ if __name__ == '__main__':
     estimator = PnpHeadPoseEstimator('./shape_predictor_68_face_landmarks.dat')
     print(f"estimator:{estimator}")
     
-    img_dir = '/Users/chinasilva/换脸/人脸数据/人脸测试数据/all'
+    img_dir = '/Users/chinasilva/face_dataset/all'
     start_process(img_dir,estimator)
     
 
